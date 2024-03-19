@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Two</title>
+</head>
+<body>
+    <h1>Jion application</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="Name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+            <br>
+            <br>
+
+        <label for="phoneno">Phone No:</label>
+        <input type="tel" name="phoneno" id="phoneno">
+        <br>
+        <br>
+
+        <label for="resume">Resume:</label>
+        <input type="file" id="resume" name="resume">
+        <br>
+        <br>
+        
+        <label for="num">Experience(in year)</label>
+        <input type="number" id="num" name="num" max="50" min="0">
+        <br><br>
+
+        <fieldset>
+            <legend>Skill</legend>
+
+            <label for="html">HTML</label>
+            <input type="checkbox" name="html" id="html">
+
+            <label for="css">CSS</label>
+            <input type="checkbox" name="CSS" id="css">
+
+            <label for="javaScript">javaScript</label>
+            <input type="checkbox" name="javaScript" id="javaScript">
+        </fieldset>
+        <br><br>
+
+        <label for="education">Education:</label>
+        <select name="education" id="education">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+            <option value="E">E</option>
+        </select>
+        <br><br>
+
+        <fieldset>
+            <legend>Availability</legend>
+
+            <label for="ftime">Fulltime</label>
+            <input type="radio" id="ftime" name="job">
+
+            <label for="ptime">Parttime</label>
+            <input type="radio" id="ptime" name="job">
+        </fieldset>
+        <br><br>
+
+        <label for="Comments">Additional Comments:</label>
+        <br>
+        <textarea name="Comments" id="Comments" cols="30" rows="10"></textarea>
+
+        <input type="button" value="Submit Application">
+    </form>
+</body>
+</html>
